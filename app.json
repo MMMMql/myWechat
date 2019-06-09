@@ -1,0 +1,38 @@
+{
+  "pages": [
+    "pages/createtask/index",
+    "pages/panel/index",
+    "pages/tasklist/index"
+  ],
+  "tabBar": {
+    "color": "#631513",
+    "selectedColor": "#661364",
+    "backgroundColor": "#FFAADD",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/tasklist/index",
+        "text": "清单",
+        "iconPath": "assets/images/all.png",
+        "selectedIconPath": "assets/images/all1.png"
+      },
+      {
+        "pagePath": "pages/createtask/index",
+        "text": "添加",
+        "iconPath": "assets/images/add.png",
+        "selectedIconPath": "assets/images/add1.png"
+      }
+    ]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarTextStyle": "white",
+    "navigationBarBackgroundColor": "#FA3164"
+  },
+  "debug": true,
+  "sitemapLocation": "sitemap.json"
+}
